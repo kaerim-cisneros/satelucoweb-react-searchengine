@@ -1,0 +1,37 @@
+@import "./mixins.scss";
+@import "./search-bar.scss";
+@import "./recent-post.scss";
+@import "./post";
+@import "./results";
+@import "./home";
+
+$mid-gray: #666666;
+$color-blue-one: #0079FF;
+
+body{
+    font-family: 'Lato', sans-serif; 
+}
+
+.app_wrapper{
+    display: grid;
+    justify-content: center;
+}
+
+.logo-main,
+.recent-posts {
+    display: grid;
+    justify-items: center;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.no-content{
+    color: $mid-gray;
+    font-size: 14px;
+    line-height: 17px;
+}
+
